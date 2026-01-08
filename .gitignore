@@ -1,4 +1,7 @@
 *.pem
-CA-dessec-alunos**
+CA-dessec-alunos
+CA-dessec-alunos.pub
+.envrc
+.env
 *.log
 .**
