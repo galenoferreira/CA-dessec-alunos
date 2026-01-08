@@ -1,3 +1,4 @@
 *.pem
-CA-dessec-alunos
+CA-dessec-alunos**
 *.log
+.**
