@@ -6,3 +6,4 @@ CA-dessec-alunos.pub
 *.log
 .*
 ._*
+note_modules/**
