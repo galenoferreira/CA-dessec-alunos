@@ -1,0 +1,17 @@
+name: Copy enigma to root index
+
+on:
+  push:
+    branches:
+      - prod-branch
+  workflow_dispatch:
+
+jobs:
+  copy-enigma:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Copy modulo-1/enigma.html to index.html
+        run: cp modulo-1/enigma.html index.html
