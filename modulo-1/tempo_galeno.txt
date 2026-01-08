@@ -1,0 +1,2 @@
+ Texto completo decifrado salvo em: biblia_decifrado.txt
+python decifra_ceasar.py -f biblia_cifrado.txt  22,88s user 0,67s system 99% cpu 23,587 total
