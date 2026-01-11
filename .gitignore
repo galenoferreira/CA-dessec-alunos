@@ -9,3 +9,4 @@ CA-dessec-alunos.pub
 firefox.sh
 !.github/**
 instrutor/
+.venv/
