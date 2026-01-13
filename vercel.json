@@ -2,7 +2,7 @@
     "routes": [
         {
             "src": "/",
-            "dest": "/modulo-1/enigma.html"
+            "dest": "/exercicios/modulo-1/enigma.html"
         }
     ]
 }
