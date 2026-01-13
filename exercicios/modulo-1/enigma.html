@@ -307,8 +307,8 @@
             // - Arquivos esperados na mesma pasta do HTML: aperta.wav e solta.wav
             // - Pré-carrega os sons para reduzir latência no primeiro uso.
             // ---------------------------------------------------------------------
-            const pressSound = new Audio('./modulo-1/aperta.wav');
-            const releaseSound = new Audio('./modulo-1/solta.wav');
+            const pressSound = new Audio('aperta.wav');
+            const releaseSound = new Audio('solta.wav');
             pressSound.preload = 'auto';
             releaseSound.preload = 'auto';
             // Tenta aquecer o cache (alguns navegadores exigem interação do usuário para tocar).
